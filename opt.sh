@@ -43,6 +43,12 @@ start_generate(){
   echo "完成执行 [hexo generate] "
 }
 
+start_clean(){
+  echo "开始执行 [hexo clean] "
+  hexo clean
+  echo "完成执行 [hexo clean] "
+}
+
 
 # 主程序，根据传入的参数调用相应的方法
 case "$1" in
@@ -53,7 +59,10 @@ case "$1" in
         start_push "$2"
         ;;
     generate)
-        start_generate "$2"
+        start_generate
+        ;;
+    clean)
+        start_clean
         ;;
     *)
         echo "用法: $0 {remote|push}"
