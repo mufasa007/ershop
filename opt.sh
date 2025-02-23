@@ -32,6 +32,9 @@ start_push() {
   }
 
   echo "推送成功！"
+
+  echo "部署到mufasa007.github.io"
+  hexo c && hexo g && hexo d
 }
 
 start_generate(){

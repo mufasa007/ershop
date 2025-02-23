@@ -2,3 +2,4 @@
 /.idea/misc.xml
 .DS_Store
 public
+/.deploy_git/

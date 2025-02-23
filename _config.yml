@@ -101,4 +101,6 @@ theme: hexo-theme-insulin-1.1.0
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: 'https://github.com/mufasa007/mufasa007.github.io.git'
+  branch: master
