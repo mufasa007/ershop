@@ -35,12 +35,15 @@ start_push() {
 }
 
 start_generate(){
-  echo "开始执行 [hexo generate] "
+  echo "开始执行 [npm install -g hexo] "
   npm install -g hexo
+  echo "开始执行 [hexo clean] "
   hexo clean
+  echo "开始执行 [hexo generate] "
   hexo generate
-  mv document/ads.txt public/ads.txt
-  echo "完成执行 [hexo generate] "
+  echo "开始复制 [ads.txt] "
+  cp ./document/ads.txt ./public/ads.txt
+  echo "完成执行 [start_generate] "
 }
 
 start_clean(){
