@@ -34,6 +34,15 @@ start_push() {
   echo "推送成功！"
 }
 
+start_generate(){
+  echo "开始执行 [hexo generate] "
+  npm install -g hexo
+  hexo clean
+  hexo generate
+  mv document/ads.txt public/ads.txt
+  echo "完成执行 [hexo generate] "
+}
+
 
 # 主程序，根据传入的参数调用相应的方法
 case "$1" in
@@ -42,6 +51,9 @@ case "$1" in
         ;;
     push)
         start_push "$2"
+        ;;
+    generate)
+        start_generate "$2"
         ;;
     *)
         echo "用法: $0 {remote|push}"
