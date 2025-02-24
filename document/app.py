@@ -71,7 +71,11 @@ def list_files_and_folders(directory, output_file):
 
 
 # 指定要读取的目录路径
-directory_path = '/Users/zhoujiankang/Documents/project/virtualGoods/文学/诺贝尔文学奖/1982年诺贝尔文学奖-加西亚·马尔克斯/加西亚·马尔克斯作品全集'
+# directory_path = '/Users/zhoujiankang/Documents/project/virtualGoods/文学/诺贝尔文学奖/1982年诺贝尔文学奖-加西亚·马尔克斯/加西亚·马尔克斯作品全集'
+# directory_path = '/Users/zhoujiankang/Documents/project/virtualGoods/文学/诺贝尔文学奖/1954年-欧内斯特·米勒尔·海明威/欧内斯特·米勒尔·海明威生涯作品全集'
+# directory_path = '/Users/zhoujiankang/Documents/project/virtualGoods/文学/诺贝尔文学奖/2021年-阿卜杜勒-拉扎克·古尔纳/2021年诺贝尔文学奖-阿卜杜勒-拉扎克·古尔纳作品全集'
+# directory_path = '/Users/zhoujiankang/Documents/project/virtualGoods/文学/诺贝尔文学奖/2020年-露易丝·格丽克/2020年诺贝尔文学奖-露易丝·格丽克作品全集'
+directory_path = '/Users/zhoujiankang/Documents/project/virtualGoods/文学/诺贝尔文学奖/2012年-莫言/2012年诺贝尔文学奖-莫言作品全集'
 # 指定输出的txt文件路径
 output_txt_path = 'output.txt'
 
