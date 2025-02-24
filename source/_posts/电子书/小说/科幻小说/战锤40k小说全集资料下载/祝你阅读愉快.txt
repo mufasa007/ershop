@@ -11,4 +11,4 @@
 https://pan.baidu.com/s/1tUrcR5v2gglcpnG9gjJe8g?pwd=cqga
 
 ## 访问下面地址获取解压密码：
-https://www.linkee.top/goods-front/pay?id=18&from=baiduwp
+https://www.linkee.top/goods-front/pay?id=18&trafficSource=baiduwp
